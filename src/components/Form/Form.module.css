@@ -1,0 +1,45 @@
+.mainBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    margin: 50px 0;
+}
+
+.input {
+    margin-right: 20px;
+}
+
+.nftsBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nftBox {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    min-height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.nftBox > .imgBox {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBox img {
+    width: 60%;
+    height: 100%;
+}
+
